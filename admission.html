@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNNIT Admission</title>
+    <link rel="stylesheet" href="admissionStyles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="MNNIT Logo">
+            <h1>MNNIT Allahabad</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="department.html">Academics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Admissions Open - 2024</h2>
+        <p>Apply now to join one of India's top engineering institutions.</p>
+        <a href="admission-form.html" class="btn">Apply Now</a>
+    </section>
+
+    <!-- Eligibility Section -->
+    <section class="eligibility">
+        <h2>Eligibility & Important Dates</h2>
+        <p><strong>Eligibility:</strong> 10+2 with 75% marks (JEE Mains for B.Tech, GATE for M.Tech)</p>
+        <p><strong>Application Deadline:</strong> April 30, 2024</p>
+        <p><strong>Entrance Exam Date:</strong> May 15, 2024</p>
+    </section>
+
+    <!-- Admission Form Section -->
+    <section id="admission-form" class="form-section">
+        <h2>Admission Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="btech">B.Tech</option>
+                <option value="mtech">M.Tech</option>
+                <option value="mba">MBA</option>
+            </select>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: admissions@mnnit.ac.in</p>
+        <p>Phone: +91 12345 67890</p>
+        <p>Address: MNNIT Allahabad, Uttar Pradesh, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MNNIT Allahabad | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
